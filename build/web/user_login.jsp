@@ -45,8 +45,9 @@
                 </div>
             </div>
 
-            <button type="submit">LogIn</button>
+            <button type="submit" class="logInBtn">LogIn</button>
 
+            <a href="user_registration.jsp" class="userRegLink">Create New Account?</a>
         </form>
 
     </body>

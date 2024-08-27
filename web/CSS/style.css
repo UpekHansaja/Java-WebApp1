@@ -39,19 +39,20 @@ label, input, select, button{
 }
 
 input[type=text],input[type=tel],input[type=password]{
-    width: 90%;
+    width: 95%;
     padding: 4px 10px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 
 input[type=radio] {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
 select{
     width: 100%;
-    padding: 4px 10px 4px 30px;
+    padding: 4px 10px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
@@ -60,10 +61,29 @@ button{
     padding: 5px 40px;
     border-radius: 20px;
     margin-top: 30px;
+    width: 100%;
+    background-color: black;
+    color: lavender;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: lavender;
+    color: black;
+    cursor: pointer;
+    transition: .3s;
 }
 
 .logout-btn{
-    margin-top: -10px !important;
+    margin-top: 40px !important;
+    background-color: red;
+    color: lavender;
+    font-weight: 500;
+}
+
+.logout-btn:hover{
+    background-color: lavender;
+    color: red;
 }
 
 .erMsg{
@@ -76,4 +96,19 @@ button{
 
 .erMsg > a{
     color: red;
+}
+
+.logInBtn{
+    margin-bottom: 50px;
+}
+
+.userRegLink{
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.userDetailBox{
+    font-size: 18px;
 }

@@ -22,14 +22,14 @@
 
             <h1>Home</h1>
 
-            <button class="logout-btn">LogOut</button>
-
             <div class="userDetailBox">
                 <div class="userDetails">Mobile : ${sessionScope.user.mobile}</div>
                 <div class="userDetails">Name : ${sessionScope.user.name}</div>
                 <div class="userDetails">Gender : ${sessionScope.user.gender}</div>
                 <div class="userDetails">Country : ${sessionScope.user.country}</div>
             </div>
+
+            <button class="logout-btn">LogOut</button>
 
         </form>
 

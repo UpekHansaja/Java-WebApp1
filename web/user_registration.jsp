@@ -46,8 +46,8 @@
                 <div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <label for="male">Male</label>
-                    <input type="radio" name="gender" id="male" value="Male"/>
-
+                    <input type="radio" name="gender" id="male" value="Male" checked/>
+                    &nbsp;&nbsp;&nbsp;
                     <label for="female">Female</label>
                     <input type="radio" name="gender" id="female" value="Female"/>
                 </div> 
@@ -77,8 +77,9 @@
                 </div>
             </div>
 
-            <button type="submit">Create Account</button>
+            <button type="submit" class="logInBtn">Create Account</button>
 
+            <a href="user_login.jsp" class="userRegLink">Already have an account?</a>
         </form>
 
     </body>
